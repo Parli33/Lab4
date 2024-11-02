@@ -35,8 +35,7 @@ jobs:
 
     - name: Grand executive permission for gradlew
       run: chmod +x ./gradlew
-    - name: Gradlew clean
-      run: ./gradlew clean
+
     - name: Build with Gradle Wrapper
       run: ./gradlew build --info --stacktrace
 
